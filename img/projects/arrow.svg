@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30">
+	<title>Vector 9</title>
+	<defs>
+		<image  width="30" height="30" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAAXNSR0IB2cksfwAAADZQTFRFAAAA////////////////////////////////////////////////////////////////////8WPG/AAAABJ0Uk5TABZ3MP/+gBqIrCXkpOcpM2Zy57lOagAAAHpJREFUeJyN0UkSgCAMRNGIiIoDev/LqiVCElr0b191NiG6agyKnlqL6myV7Re7X9wPolGxzE81zoqYKeCo0ww56rI6xEkJcVbETAFzLVlowVI1K1WsVXKhgkvlDJQx0sxQEz8f9EIpbGfhZZva4TZnKtvba3ref71MB1EiCi0naRt5AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

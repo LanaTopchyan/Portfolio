@@ -1,0 +1,355 @@
+header {
+    width: 960px;
+    height: 24px;
+    margin-top: 30px;
+    margin-bottom: 41px;
+}
+main {
+    width: 960px; 
+}
+.header_title {
+    letter-spacing: -0.03em;
+    font-size: 20px;
+    line-height: 24px;
+}
+.header_icons {
+    width: 132px;
+    height: 24px;
+}
+.social{
+    width: 24px;
+    height: 24px;
+}
+.social_down{
+    
+    width: 24px;
+    height: 24px;
+}
+.cover {
+    width: 960px;
+    height: 484px;
+}
+.cover_photo{
+    width: 445px;
+    height: 484px;
+}
+.cover_img {
+    width: 399px;
+    height: 443px;
+}
+.about{
+    width: 960px;
+    height: 732px;
+    margin: 200px 0;
+}
+
+.about_col{
+    width: 960px;
+    height: 732px;
+}
+.cover_title{
+    top: 132px;
+    width: 654px;
+    height: 220px;
+    font-size: 100px;
+    line-height: 110%;
+    /* or 176px 598*/
+
+}
+.first_text {
+    width: 679px;
+    height: 400px;
+    font-size: 50px;
+    line-height: 115%;
+}
+.about_row p {
+    width: 144px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.second_text{
+    font-size: 25px;
+    line-height: 140%;
+    width: 480px;
+    height: 140px;
+    margin-left: 480px;
+}
+
+.about_img{
+    width: 375px;
+    height: 432px;
+    left: -20px;
+}
+
+.process_title {
+    font-size: 20px;
+    line-height: 24px;
+}
+.process_steps {
+    width: 480px;
+}
+
+
+
+/*steps*/
+
+
+.step{
+    width: 480px;
+    height: 102px;
+    transition: all .5s;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.step_content{
+    width: 480px;
+    padding: 30px 0;
+    height: 42px;
+    transition: all .5s;
+}
+.step_title{
+    display: flex;
+}
+.step_visible{
+    display: flex;
+    width: 480px;
+}
+.step_button{
+    margin-left: auto;
+}
+.step_title p{
+    margin: 0;
+    margin-right: 40px;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.step_unvisible{
+    text-transform: none;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 0px;
+    width: 480px;
+    font-family: 'Plain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #C9C9C9;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    height: 0;
+}
+.step_size_1{
+    height: 205px;
+}
+.step_text_size_1{
+    height: 145px; 
+}
+.step_size_2{
+    height: 271px;
+}
+.step_text_size_2{
+    height: 211px;
+}
+.step_size_3{
+    height: 249px;
+}
+.step_text_size_3{
+    height: 189px;
+}
+.step_size_4{
+    height: 205px;
+}
+.step_text_size_4{
+    height: 145px;
+}
+.step_size_5{
+    height: 139px;
+}
+.step_text_size_5{
+    height: 79px;
+}
+.step_size_6{
+    height: 161px;
+}
+.step_text_size_6{
+    height: 101px;
+}
+.st{
+    height: 100%;
+}
+/*!steps*/
+
+
+
+
+.projects{
+    margin: 200px 0;
+}
+.projects_title{
+    width: 440px;
+    height: 144px;
+    font-size: 60px;
+    line-height: 72px;
+}
+.project {
+    width: 440px;
+}
+.project_buttons{
+    width: 380px;
+}
+.project_button{
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 140%;
+}
+.project_title{
+    width: 380px;
+    margin-bottom: 15px;
+}
+.project_title p{
+    font-size: 25px;
+    line-height: 140%;
+}
+.project_info span{
+    font-size: 16px;
+    line-height: 140%;
+}
+.project_info{
+    width: 380px;
+}
+.project_content{
+    margin: 30px;
+}
+.project_image{
+    margin: 30px 0;
+}
+.projects_cols{
+    width: 920px;
+}
+.projects_col{
+    height: 2250px;
+}
+.projects_column{
+    height: 2092px;
+}
+.projects_behance{
+    width: 199px;
+    height: 28px;
+    margin-top: 100px;
+}
+.projects_behance span{
+    font-size: 20px;
+    line-height: 140%;
+    width: 170px;
+    height: 28px;
+}
+.behance_arrow{
+    margin: 5px 0;
+    width: 27px;
+    height: 18px;
+}
+.about_service_button{
+    width: 163px;
+    height: 21px;
+}
+.about_service_link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+}
+.about_service_button img{
+    margin-top:5px;
+}
+.service_description{
+    margin: 40px 0;
+    width: 480px;
+}
+.service_title{
+    width: 480px;
+    font-size: 30px;
+    line-height: 140%;
+}
+.service{
+    height: 104px;
+
+}
+.service_price{
+    font-size: 16px;
+    line-height: 140%;
+}
+.services_title{
+    font-size: 20px;
+    line-height: 24px;
+}
+.service_list{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.hourly_payment{
+    font-size: 16px;
+    line-height: 140%;
+}
+footer{
+    margin-top: 200px;
+    height: 570px;
+}
+.footer {
+    width: 960px;
+    padding-top: 57px;
+    padding-bottom: 48px;
+}
+.footer_title {
+    font-size: 60px;
+    line-height: 72px;
+    width: 532px;
+    height: 144px;
+}
+.footer_cols{
+    width: 923px;
+}
+.footer_col{
+    width: 232px;
+    margin-top: 10px;
+    height: 95px;
+
+}
+.happy{
+    font-size: 16px;
+    line-height: 140%;
+}
+.mail{
+    font-size: 16px;
+    line-height: 21px;
+}
+.email_me{
+    width: 170px;
+    height: 170px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 66px;
+}
+.footer_links{
+    margin-top: 66px;
+}
+.footer_social{
+    width: 311px;
+}
+.footer_copyright{
+    width: 275px;
+}
+.footer_social span{
+    font-size: 14px;
+    line-height: 19px;
+}
+.footer_copyright span{
+    font-size: 14px;
+    line-height: 19px;
+}

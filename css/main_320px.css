@@ -1,0 +1,475 @@
+header {
+    width: 280px;
+    height: 24px;
+    margin-top: 27px;
+    margin-bottom: 74px;
+}
+main {
+    width: 280px; 
+    margin-bottom: 217px;
+    
+}
+.header_title {
+    letter-spacing: -0.03em;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    margin: auto 0;
+}
+.header_icons {
+    width: 24px;
+    height: 24px;
+}
+.social{
+    width: 24px;
+    height: 24px;
+}
+.social_down{
+    
+    width: 24px;
+    height: 24px;
+}
+.cover {
+    width: 280px;
+    height: 433px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cover_photo{
+    width: 300px;
+    height: 324px;
+    position: static;
+}
+.cover_img {
+    width: 267px;
+    height: 297px;
+    margin: 0;
+}
+.about{
+    width: 280px;
+    height: 841px;
+    margin: 130px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about_col{
+    width: 280px;
+    height: 773px;
+}
+.cover_title{
+    position: static;
+    width: 280px;
+    height: 92px;
+    font-size: 42px;
+    line-height: 110%;
+    /* or 176px 598*/
+
+}
+.first_text {
+    width: 280px;
+    height: 306px;
+    font-size: 30px;
+    line-height: 115%;
+}
+.about p {
+    width: 108px;
+    height: 18px;
+    font-size: 15px;
+    line-height: 18px;
+}
+.second_text{
+    margin-left: 0;
+    font-size: 15px;
+    line-height: 140%;
+    width: 280px;
+    height: 84px;
+}
+
+.about_img{
+    position: static;
+    width: 280px;
+    height: 323px;
+    
+}
+.process{
+    flex-direction: column;
+    
+}
+.process_title {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 50px;
+}
+.process_steps {
+    width: 280px;
+}
+.step{
+    width: 280px;
+    
+}
+.step_description{
+    margin-top: -5px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    width: 253px;
+    font-size: 12px;
+    line-height: 140%;
+}
+.step img{
+    width: 24px;
+    height: 24px;
+    
+    
+}
+
+.step_title p{
+    font-size: 20px;
+    line-height: 140%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.step_number {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.projects{
+    margin: 130px 0;
+    flex-direction: column;
+}
+.projects_title{
+    width: 280px;
+    height: 84px;
+    font-size: 35px;
+    line-height: 42px;
+}
+.project {
+    width: 280px;
+}
+.project_buttons{
+    width: 244px;
+}
+.project_button{
+    width: 110px;
+    height: 25px;
+    font-size: 10px;
+    line-height: 140%;
+}
+.project_title{
+    width: 244px;
+    margin-bottom: 15px;
+}
+.project_title p{
+    font-size: 20px;
+    line-height: 140%;
+}
+.project_info span{
+    font-size: 12px;
+    line-height: 140%;
+}
+.project_info{
+    width: 244px;
+}
+.project_content{
+    margin: 20px;
+}
+.project_image{
+    margin: 18px 0;
+}
+.projects_cols{
+    width: 280px;
+}
+.projects_col{
+    height: 3390px;
+}
+.projects_column{
+    height: 3255px;
+}
+.projects_behance{
+    width: 158px;
+    height: 23px;
+    margin-top: 60px;
+}
+.projects_behance span{
+    font-size: 16px;
+    line-height: 140%;
+    width: 130px;
+    height: 22px;
+}
+.behance_arrow{
+    margin: 7px 0;
+    width: 18px;
+    height: 12px;
+}
+.about_service_button{
+    width: 168px;
+    height: 20px;
+}
+
+/*steps*/
+
+
+.step{
+    width: 280px;
+    height: 58px;
+    transition: all .5s;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.step_content{
+    width: 280px;
+    padding: 15px 0;
+    height: 28px;
+    transition: all .5s;
+}
+.step_title{
+    display: flex;
+}
+.step_visible{
+    display: flex;
+    width: 280px;
+}
+.step_button{
+    margin-left: auto;
+}
+.step_title p{
+    margin: 0;
+    margin-right: 15px;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.step_unvisible{
+    text-transform: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0px;
+    width: 280px;
+    font-family: 'Plain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #C9C9C9;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    height: 0;
+}
+.step_size_1{
+    height: 153px;
+}
+.step_text_size_1{
+    height: 123px; 
+}
+.step_size_2{
+    height: 221px;
+}
+.step_text_size_2{
+    height: 191px;
+}
+.step_size_3{
+    height: 208px;
+}
+.step_text_size_3{
+    height: 178px;
+}
+.step_size_4{
+    height: 173px;
+}
+.step_text_size_4{
+    height: 143px;
+}
+.step_size_5{
+    height: 102px;
+}
+.step_text_size_5{
+    height: 72px;
+}
+.step_size_6{
+    height: 119px;
+}
+.step_text_size_6{
+    height: 89px;
+}
+.st{
+    height: 100%;
+}
+/*!steps*/
+
+
+.modal{
+    width: 280px;
+}
+.modal_button{
+    width: 240px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.modal_content{
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: 200px;
+}
+.modal_description{
+    width: 244px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    line-height: 140%;
+   
+}
+.modal_success{
+    width: 140px;
+    height: 140px;
+    margin-left: 25%;
+}
+.modal_input_group{
+    flex-direction: column;
+    height: 110px;
+    width: 240px;
+}
+.modal_close{
+    left: 240px;
+    top: 28px;
+    width: 18px;
+    height: 18px;
+}
+.modal_message{
+    margin-top: 10px;
+    width: 200px;
+}
+
+.modal_mandatory{
+    width: 220px;
+    height: 48px;
+}
+.modal_title{
+    width: 220px;
+    height: 42px;
+    font-size: 15px;
+    line-height: 140%;
+}
+.about_service_link{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+.about_service_button img{
+    margin-top:5px;
+    margin-left: 10px;
+}
+.service_description{
+    margin: 47px 0;
+    width: 280px;
+}
+.service_title{
+    width: 170px;
+    font-size: 20px;
+    line-height: 140%;
+}
+.service{
+    height: 120px;
+    width: 280px;
+
+}
+.service_price{
+    font-size: 12px;
+    line-height: 140%;
+}
+.services{
+    width: 280px;
+    margin-bottom: 100px;
+}
+.services_title{
+    font-size: 15px;
+    line-height: 18px;
+    width: 280px;
+}
+.service_list{
+    margin-top: 85px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 280px;
+}
+.hourly_payment{
+    font-size: 12px;
+    line-height: 140%;
+    position: relative;
+    
+}
+footer{
+    margin-top: 100px;
+    height: 640px;
+}
+.footer {
+    margin-top: 100px;
+    width: 280px;
+    padding-top: 70px;
+    padding-bottom: 23px;
+}
+.footer_title {
+    font-size: 35px;
+    line-height: 42px;
+    width: 278px;
+    height: 126px;
+}
+.footer_cols{
+    width: 280px;
+    height: 258px;
+    flex-direction: column;
+}
+.footer_col{
+    width: 232px;
+    
+    height: 82px;
+
+}
+.happy{
+    font-size: 15px;
+    line-height: 140%;
+}
+.mail{
+    font-size: 15px;
+    line-height: 20px;
+}
+.email_me{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 50px;
+}
+.footer_links{
+    margin-top: 70px;
+    flex-direction: column;
+    height: 50px;
+}
+.footer_social{
+    width: 280px;
+}
+.footer_copyright{
+    width: 280px;
+}
+.footer_social span{
+    font-size: 12px;
+    line-height: 16px;
+}
+.footer_copyright span{
+    font-size: 10px;
+    line-height: 13px;
+}
+.burger_menu{
+    width: 24px;
+    height: 24px;
+    
+}
